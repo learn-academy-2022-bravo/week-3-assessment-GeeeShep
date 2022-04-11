@@ -61,10 +61,11 @@
             padding: "10px"
           }
           // No need to change anything ABOVE this line ^
-
+          
           return(
+            <>
             <h1>Draw a Card</h1>
-            <button onClick={}>
+            <button onClick={this.drawCard}>
               Click to Draw a Card
             </button>
             <button onClick={shuffle}>
@@ -79,9 +80,14 @@
                 )
               })}
             </div>
+            </>
           )
         }
       }
+//line 66 missing open tag
+//line 68 {} was empty
+//line 82 missing closing tag
+      export default App;
 
       // No need to change anything below this line
       const domContainer = document.querySelector('#react-container')

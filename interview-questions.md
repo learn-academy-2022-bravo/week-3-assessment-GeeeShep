@@ -9,41 +9,46 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
 1. What is `this` in JavaScript?
 
-  Your answer:
+  Your answer: I believe it refers to an object that it belongs to.
 
-  Researched answer:
+  Researched answer: All the javascript functions while executing is referencing its 
+  current context within the execution, called this. Basically here is how the function is called.
 
 
 
-2. What is React? Why would you use it?
+2. What is React? Why would you use it? 
 
-  Your answer:
+  Your answer: and app devoloped from Facebook .Its a library for making web apps. 
+I would use it so I can see my changed data as I am working it.
 
-  Researched answer:
+  Researched answer: Its an open source JavaScript library that is used for building user interfaces. It’s used for dealing with the view layer for web/mobile apps. React also allows us to create reusable UI components. 
 
 
 
 3. Which lifecycle method is required in a React class component?
 
-  Your answer:
+  Your answer: not sure on the lifecycle method
 
-  Researched answer:
+  Researched answer: the "render" method. The render() method is the only method that the component  needs to have. It needs to be always called and its primary job is to mount the component to the DOM.
 
 
 
 4. What is JSX? What is one notable difference between HTML and JSX?
 
-  Your answer:
+  Your answer: its a javascript extension. We use JSX within  REACT to write javascript
+  and HTML together. JSX uses a className syntax whereas HTML uses class.
 
   Researched answer:
+  To define class names  in JSX, you don't do it as class  since its a reserved keyword in JavaScript.You actually create class components with the class keyword in HTML. So, to define class names in JSX, you do it as "className".
+
 
 
 
 5. What is yarn? What file(s) are modified in a React application when you run yarn?
 
-  Your answer:
+  Your answer: yarn is a process that manages files to make them work
 
-  Researched answer:
+  Researched answer: a new type of package manager for a project's dependencies. Its something that a project depends on, a piece of code that is required to make the project work properly.
 
 
 
@@ -51,17 +56,17 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
   Your answer:
 
-  Researched answer:
+  Researched answer: an anonymous function is that type of function that has no name or  is without any name. When you create an anonymous function, it is declared without any identifier. 
 
 
 ## Looking Ahead: Terms for Next Week
 
-1. Conditional rendering:
+1. Conditional rendering: this is similar to the way conditonals work in JS
 
-2. Object-oriented programming:
+2. Object-oriented programming: programming  standard that was created to deal with the growing complexity of large software systems.
 
-3. Ruby:
+3. Ruby: an interpreted, high-level, general-purpose programming language that supports multiple programming standards. It was designed with specifics on programming productivity and simplicity.
 
-4. Ruby blocks:
+4. Ruby blocks:  little anonymous functions that can be passed into methods
 
-5. Ruby hashes:
+5. Ruby hashes: a group of key value pairs

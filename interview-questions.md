@@ -27,7 +27,7 @@ I would use it so I can see my changed data as I am working it.
 
 3. Which lifecycle method is required in a React class component?
 
-  Your answer: not sure on the lifecycle method
+  Your answer: not sure on the lifecycycle method. 
 
   Researched answer: the "render" method. The render() method is the only method that the component  needs to have. It needs to be always called and its primary job is to mount the component to the DOM.
 
@@ -36,7 +36,8 @@ I would use it so I can see my changed data as I am working it.
 4. What is JSX? What is one notable difference between HTML and JSX?
 
   Your answer: its a javascript extension. We use JSX within  REACT to write javascript
-  and HTML together. JSX uses a className syntax whereas HTML uses class.
+  and HTML together. JSX uses a className syntax whereas HTML uses class. JSX has to
+  be compiled,inline styling, JSX requires a style object
 
   Researched answer:
   To define class names  in JSX, you don't do it as class  since its a reserved keyword in JavaScript.You actually create class components with the class keyword in HTML. So, to define class names in JSX, you do it as "className".
@@ -65,7 +66,8 @@ I would use it so I can see my changed data as I am working it.
 
 2. Object-oriented programming: programming  standard that was created to deal with the growing complexity of large software systems.
 
-3. Ruby: an interpreted, high-level, general-purpose programming language that supports multiple programming standards. It was designed with specifics on programming productivity and simplicity.
+3. Ruby: an interpreted, high-level, general-purpose programming language that supports multiple programming standards. It was designed with specifics on programming productivity and simplicity. server side scripted language, OOP, human-readable language, open source, 90's kid, preinstalled on Macs, server side 
+
 
 4. Ruby blocks:  little anonymous functions that can be passed into methods
 
